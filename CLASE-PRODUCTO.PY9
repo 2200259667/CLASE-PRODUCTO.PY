@@ -1,0 +1,36 @@
+clase  Producto :
+    def  __init__ ( self , id , nombre_producto , cantidad , precio ):
+        ser . identificación  =  identificación
+        ser . nombre_producto  =  nombre_producto
+        ser . cantidad  =  cantidad
+        ser . precio  =  precio
+
+    def  __str__ ( yo ):
+        return  f"Nombre: { self . nombre_producto } , Cantidad: { self . cantidad } , Precio: { self . precio } "
+
+    # Getters y Setters (si se desean añadir)
+    def  get_id ( yo ):
+        regresar a  uno mismo . identificación
+
+    def  set_id ( yo , identificación ):
+        ser . identificación  =  identificación
+
+    def  get_nombre_producto ( self ):
+        regresar a  uno mismo . nombre_producto
+
+    def  set_nombre_producto ( self , nombre_producto ):
+        ser . nombre_producto  =  nombre_producto
+
+    def  get_cantidad ( self ):
+        regresar a  uno mismo . cantidad
+
+    def  set_cantidad ( self , cantidad ):
+        ser . cantidad  =  cantidad
+
+    def  get_precio ( auto ):
+        regresar a  uno mismo . precio
+
+    def  set_precio ( self , precio ):
+        ser . precio  =  precio
+producto  =  Producto ( 1 , "platón" , 12 , 2 )
+imprimir ( producto 
